@@ -1,14 +1,19 @@
 body {
-  background-color: #E7E6DD ;
+  background:-webkit-linear-gradient(120deg, #201f1f 0%, #1D5D9B 100%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
   text-align: justify;
+  color: rgb(221, 230, 143);
 }
 
-.titleHeader {
+.titleHeader,.assignment {
+  padding-top: 3%;
+  padding-bottom: 0%;
   text-align: center;
-  color: ;
+  background: -webkit-linear-gradient(0deg, #000000 0%, #f4d160 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .headerImages {
